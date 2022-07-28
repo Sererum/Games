@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Oracle Corporation Java 17.0.2)
+[debug]       Load.loadUnit: plugins took 141.5976ms
+[debug]       Load.loadUnit: defsScala took 0.3141ms
+[debug] [Loading] Scanning directory C:\Users\serer\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\serer\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 27.8824 ms
+[debug]           Load.resolveProject(global-plugins) took 75.0242ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\serer\.sbt\1.0\plugins, plugins: List(<none>))) took 134.9717ms
+[debug] [Loading] Done in C:\Users\serer\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 171.3111ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2728ms
+[debug]     Load.loadUnit(file:/C:/Users/serer/.sbt/1.0/plugins/, ...) took 328.5748ms
+[debug]   Load.apply: load took 600.0867ms
+[debug]   Load.apply: resolveProjects took 9.7438ms
+[debug]   Load.apply: finalTransforms took 88.462ms
+[debug]   Load.apply: config.delegates took 11.7525ms
+[debug]   Load.apply: Def.make(settings)... took 557.7787ms
+[debug]   Load.apply: structureIndex took 127.8198ms
+[debug]   Load.apply: mkStreams took 3.602ms
+[info] loading global plugins from C:\Users\serer\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3044.7434ms
+[debug]           Load.loadUnit: plugins took 29.5897ms
+[debug]           Load.loadUnit: defsScala took 0.0051ms
+[debug] [Loading] Scanning directory C:\Users\serer\IdeaProjects\Games\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\serer\IdeaProjects\Games\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.3846 ms
+[debug]               Load.resolveProject(games-build) took 1.3775ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id games-build, base: C:\Users\serer\IdeaProjects\Games\project, plugins: List(<none>))) took 4.4088ms
+[debug] [Loading] Done in C:\Users\serer\IdeaProjects\Games\project, returning: (games-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 7.0506ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.014ms
+[debug]         Load.loadUnit(file:/C:/Users/serer/IdeaProjects/Games/project/, ...) took 37.6368ms
+[debug]       Load.apply: load took 39.868ms
+[debug]       Load.apply: resolveProjects took 0.1433ms
+[debug]       Load.apply: finalTransforms took 12.6339ms
+[debug]       Load.apply: config.delegates took 0.514ms
+[debug]       Load.apply: Def.make(settings)... took 100.5363ms
+[debug]       Load.apply: structureIndex took 43.56ms
+[debug]       Load.apply: mkStreams took 0.0042ms
+[info] loading project definition from C:\Users\serer\IdeaProjects\Games\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 431.2812ms
+[debug]     Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory C:\Users\serer\IdeaProjects\Games
+[debug]       Load.loadUnit: mkEval took 6.4711ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.8695 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.4644ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\serer\IdeaProjects\Games, plugins: List(<none>))) took 5.307ms
+[debug] [Loading] Done in C:\Users\serer\IdeaProjects\Games, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3697.4812ms
+[debug]     Load.loadUnit: cleanEvalClasses took 15.0545ms
+[debug]   Load.loadUnit(file:/C:/Users/serer/IdeaProjects/Games/, ...) took 4144.7865ms
+[debug] Load.apply: load took 4146.1759ms
+[debug] Load.apply: resolveProjects took 0.1106ms
+[debug] Load.apply: finalTransforms took 9.4691ms
+[debug] Load.apply: config.delegates took 0.3833ms
+[debug] Load.apply: Def.make(settings)... took 57.8514ms
+[debug] Load.apply: structureIndex took 22.7001ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to Games (in build file:/C:/Users/serer/IdeaProjects/Games/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-8822256a43f4d37603e6
+[debug] Writing bsp connection file
+[info] started sbt server

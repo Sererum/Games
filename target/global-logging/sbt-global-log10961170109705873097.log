@@ -1,0 +1,20 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to C:\Users\serer\IdeaProjects\Games\target\scala-3.1.3\classes ...
+[error] -- [E008] Not Found Error: C:\Users\serer\IdeaProjects\Games\src\main\scala\Gallows2.scala:1:17 
+[error] 1 |import Gallows2.{newErrors, newSet, putIOString, stringGallows}
+[error]   |                 ^^^^^^^^^
+[error]   |                 value newErrors is not a member of object Gallows2
+[error] -- [E008] Not Found Error: C:\Users\serer\IdeaProjects\Games\src\main\scala\Gallows2.scala:1:28 
+[error] 1 |import Gallows2.{newErrors, newSet, putIOString, stringGallows}
+[error]   |                            ^^^^^^
+[error]   |                           value newSet is not a member of object Gallows2
+[error] -- [E008] Not Found Error: C:\Users\serer\IdeaProjects\Games\src\main\scala\Gallows2.scala:1:49 
+[error] 1 |import Gallows2.{newErrors, newSet, putIOString, stringGallows}
+[error]   |                                                 ^^^^^^^^^^^^^
+[error]   |                    value stringGallows is not a member of object Gallows2
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 6 s, completed 25 июл. 2022 г., 18:05:15
+[debug] > Exec(idea-shell, None, None)

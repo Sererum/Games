@@ -1,0 +1,15 @@
+[debug] Acquiring lock on file C:\Users\serer\IdeaProjects\Games\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[error] -- [E008] Not Found Error: C:\Users\serer\IdeaProjects\Games\src\main\scala\Gallows2.scala:1:17 
+[error] 1 |import Gallows2.{newErrors, newSet, putIOString, stringGallows}
+[error]   |                 ^^^^^^^^^
+[error]   |                 value newErrors is not a member of object Gallows2
+[error] -- [E008] Not Found Error: C:\Users\serer\IdeaProjects\Games\src\main\scala\Gallows2.scala:1:28 
+[error] 1 |import Gallows2.{newErrors, newSet, putIOString, stringGallows}
+[error]   |                            ^^^^^^
+[error]   |                           value newSet is not a member of object Gallows2
+[error] -- [E008] Not Found Error: C:\Users\serer\IdeaProjects\Games\src\main\scala\Gallows2.scala:1:49 
+[error] 1 |import Gallows2.{newErrors, newSet, putIOString, stringGallows}
+[error]   |                                                 ^^^^^^^^^^^^^
+[error]   |                    value stringGallows is not a member of object Gallows2
+[error] three errors found
+[debug] Releasing lock on file C:\Users\serer\IdeaProjects\Games\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.
